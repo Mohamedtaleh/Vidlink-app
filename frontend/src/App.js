@@ -16,7 +16,7 @@ import "./App.css";
 
 
 // Replace this with your actual backend base URL
-const API = "http://localhost:8000/api";
+const API = process.env.REACT_APP_API_URL + "/api";
 
 const languages = {
   en: {
