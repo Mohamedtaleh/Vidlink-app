@@ -1,4 +1,4 @@
-# SnapKit.io - TikTok Video Downloader
+# vidLink - TikTok Video Downloader
 
 A high-performance, modern TikTok Downloader website that allows users to download TikTok videos without watermark, with watermark, or as MP3 audio.
 
@@ -59,7 +59,7 @@ A high-performance, modern TikTok Downloader website that allows users to downlo
    # Frontend
    cd frontend
    yarn install
-   
+
    # Backend
    cd backend
    pip install -r requirements.txt
@@ -69,7 +69,7 @@ A high-performance, modern TikTok Downloader website that allows users to downlo
    ```bash
    # Frontend (.env)
    REACT_APP_BACKEND_URL=http://localhost:8000
-   
+
    # Backend (.env)
    MONGO_URL=mongodb://localhost:27017/snapkit
    DB_NAME=snapkit
@@ -79,7 +79,7 @@ A high-performance, modern TikTok Downloader website that allows users to downlo
    ```bash
    # Frontend
    cd frontend && yarn start
-   
+
    # Backend
    cd backend && python server.py
    ```
